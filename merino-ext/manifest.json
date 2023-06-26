@@ -1,0 +1,19 @@
+{
+    "name": "Search with Firefox Suggest",
+    "version": "3",
+    "description": "A proof of concept to return search results from FireFox Suggest+ in Chrome.",
+    "manifest_version": 3,
+    "omnibox": { "keyword": "ff" },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "externally_connectable": {
+      "matches": ["https://merino.services.mozilla.com/*"]
+    },
+    "icons": {
+      "16": "16px.png",
+      "48": "48px.png",
+      "64": "64px.png",
+      "128": "128px.png"
+    }
+  }
