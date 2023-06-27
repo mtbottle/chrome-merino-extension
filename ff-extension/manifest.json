@@ -1,0 +1,15 @@
+{
+    "name": "Search with Firefox Suggest",
+    "version": "3",
+    "description": "A proof of concept to return search results from FireFox Suggest+ in Firefox. This doesn't require opt-in!",
+    "manifest_version": 3,
+    "omnibox": { "keyword": "plus" },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "plus16px.png",
+        "32": "plus32px.png",
+        "48": "plus48px.png"
+    }
+  }
